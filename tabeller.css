@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 20px;
+    background: none;
+}
+/*det bara backgrunden*/
+body{
+    background-image: url(h.jpg);
+}
+
+/* Det här är för tabellens */
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    width: 15%; 
+  }
+
+  tr:nth-child(even){
+    background:darkblue;
+    color: white;
+  }
+  tr:nth-child(odd){
+    background:yellow;
+    color:black;
+  }
+  tr:nth-child(1){
+    background:white ;
+    color:black;
+    text-align: left;
+  }
+  td:nth-child(2){
+    text-align: center;
+  }
+  td:nth-child(3){
+    text-align: center;
+  }
+  td:nth-child(4){
+    text-align: right;
+  }
+  th:nth-child(even){
+      text-align: center;
+  }
+  th:nth-child(3){
+    text-align: center;
+}
+th:nth-child(4){
+    text-align: right;
+}
+/*här nere är för listan */
+ul{
+    font-size: 25px;
+    list-style-type: square;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+  
+
+  

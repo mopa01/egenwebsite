@@ -1,0 +1,97 @@
+/*bakgrunden*/
+body{
+    background-image: url(h.jpg);
+}
+
+
+
+
+/*grid*/
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+/*här nere är för dem texter jag skrev i huvudsidan */
+.box{
+    background-color:none;
+    color: #fff;
+    height: 200px;
+    max-width: 60%;
+    max-height: 190px;
+    padding:20px;  
+}
+/*här nere är för "Teknikum"*/
+h1 {
+    font-size: 120px;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+/*här nere är för mellan delen som har välkommen*/
+h2{
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+    
+}
+/*små texten under välkommen*/
+p{
+    margin-top: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+/*här nere alla som börjar med ul är för länkat texter*/
+ul {
+    align-items: flex-start center;
+    margin: 0%;
+    padding:0;
+}
+
+ul li{
+
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+
+
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: thick;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 0 25px;
+}
+/* det är för ner musen pekaren kommer på texten så texten lyser röd så att man förstår att om man trycker så det tar till en sida*/
+ul li a:hover {
+    color:red;
+
+}
+/* här försökte jag någonting men sen glömde jag, det står kvar för att kanske jag kommer ihåg sen
+.huvudtek{
+    width: 650px;
+    height: 200px;
+
+}
+*/
+
+/* footer delen*/
+footer{
+    color: white;
+    display: flexbox;
+}
+
+
+
